@@ -37,6 +37,8 @@ class LinkedList:
         print('new item is :'+ str(new_node.value))
         last_node.next = new_node
 
+        
+
 
 ll = LinkedList()
 ll.append(1)
@@ -46,3 +48,5 @@ ll.append(2)
 ll.append(3)
 ll.append(circular_node)
 ll.is_circular()
+
+ll.insert(2,Node(4))
